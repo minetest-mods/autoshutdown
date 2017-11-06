@@ -52,5 +52,6 @@ minetest.register_chatcommand("autoshutdown", {
 	privs = {server = true},
 	func = function(name, param)
 		do_shutdown()
+		return true, "autoshutdown issued"
 	end,
 })
