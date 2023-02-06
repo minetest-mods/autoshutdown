@@ -1,1 +1,0 @@
-Shut down the server after the last player leaves.
